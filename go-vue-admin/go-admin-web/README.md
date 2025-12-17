@@ -16,3 +16,6 @@
 [//]: # (安装element plus)
     # npm install element-plus
     # npm install @element-plus/icons-vue 图标
+
+[//]: # (安装Axios api目录)
+    # npm install axios

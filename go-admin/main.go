@@ -9,5 +9,5 @@ func main() {
 	//初始化gorm.db
 	models.InitGormDB()
 	r := router.App()
-	r.Run(":8080")
+	r.Run(":8081")
 }
