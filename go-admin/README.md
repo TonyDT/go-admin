@@ -1,0 +1,17 @@
+[//]: # (1.0 创建go项目)
+[//]: # (gin安装)
+[//]: # (1.1  go get -u github.com/gin-gonic/gin)
+[//]: # (gorm安装)
+[//]: # (1.2  go get -u gorm.io/gorm)
+[//]: # (mysql驱动安装)
+[//]: # (1.3  go get -u gorm.io/driver/mysql)
+[//]: # (创建数据库)
+[//]: # (go-admin)
+[//]: # (router 文件夹->路由)
+[//]: # (models 文件夹->数据库)
+[//]: # (gin-admin-web)
+[//]: # (1.4 npm create vite@latest)
+[//]: # (go-admin-web  vue Ts )
+)
+
+
