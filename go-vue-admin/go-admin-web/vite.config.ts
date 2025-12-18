@@ -14,4 +14,11 @@ export default defineConfig({
       symbolId: 'icon-[dir]-[name]',
     })
   ],
+
+  //设置别名
+  resolve:{
+    alias: {
+      '@': path.resolve( './src')
+    }
+  },
 })

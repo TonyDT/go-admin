@@ -25,3 +25,5 @@
 
 [//]: # (安装nprogress插件进度条)
     # npm install nprogress --save
+
+[//]: # (设置别名vite.config.ts)
