@@ -16,9 +16,9 @@ export default defineConfig({
   ],
 
   //设置别名
-  resolve:{
+  resolve: {
     alias: {
-      '@': path.resolve( './src')
+      '@': path.resolve(__dirname, 'src')
     }
   },
 })

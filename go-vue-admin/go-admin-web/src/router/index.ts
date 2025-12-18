@@ -1,4 +1,5 @@
-import nprogress from '@/config/nprogress.ts'
+// @ts-ignore
+import nprogress from '@/config/nprogress'
 //1.导入vue-router 模块
 import {createRouter,createWebHashHistory} from 'vue-router'
 //2.定义一些路由地址,每个都需要映射一个组件
