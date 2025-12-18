@@ -1,3 +1,4 @@
+import nprogress from '../config/nprogress.ts'
 //1.导入vue-router 模块
 import {createRouter,createWebHashHistory} from 'vue-router'
 //2.定义一些路由地址,每个都需要映射一个组件
@@ -11,5 +12,21 @@ const routes =[{
 const router = createRouter({
     history:createWebHashHistory(),
     routes:routes
+})
+
+//路由拦截守卫
+router.beforeEach(() => {
+    nprogress.start();
+    return true;
+});
+
+//路由跳转结束
+router.afterEach(()=>{
+    nprogress.done()
+})
+// 路由跳转失败
+router.onError((error) => {
+    nprogress.done();
+    console.warn("路由错误",error.message)
 })
 export default router

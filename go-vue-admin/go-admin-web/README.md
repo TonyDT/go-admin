@@ -19,3 +19,9 @@
 
 [//]: # (安装Axios api目录)
     # npm install axios
+
+[//]: # (安装svg插件)
+    # npm install vite-plugin-svg-icons -D
+
+[//]: # (安装nprogress插件进度条)
+    # npm install nprogress --save
