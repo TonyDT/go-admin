@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  envDir:'./viteenv',//这里使用相对路径
   plugins: [vue(),
   //使用svg图标
     createSvgIconsPlugin({

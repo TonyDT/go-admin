@@ -27,3 +27,4 @@
     # npm install nprogress --save
 
 [//]: # (设置别名vite.config.ts)
+[//]: # (设置多环境配置 viteenv)
